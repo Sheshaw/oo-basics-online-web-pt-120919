@@ -36,7 +36,7 @@ class Shoe
     @material
   end
   
-  def condition=(condition = "old")
+  def condition=(condition = "tattered")
     @conditon = conditon
   end
   
@@ -44,6 +44,10 @@ class Shoe
     @condition
   end
   
+  def cobble
+    puts "shoe has been repaired."
+  end
+    
   
   
   
