@@ -37,7 +37,7 @@ class Shoe
   end
   
   def condition=(condition = "tattered")
-    @conditon = conditon
+    @conditon = condition
   end
   
   def conditon
