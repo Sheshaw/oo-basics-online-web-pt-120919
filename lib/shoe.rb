@@ -48,9 +48,12 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
     
-    
-  condition.update_attribute(condition = "new") 
+  def condition=(new_condition = "new")
+    @condition = new_condition
+  end
   
-  
+  def condition
+    @condition
+  end
   
 end
